@@ -9,8 +9,13 @@ public class PhraseSolver
 {
   /* your code here - attributes */
   private String solution;
+  private boolean solved;
 
-  /* your code here - constructor(s) */ 
+  /* your code here - constructor(s) */
+  public PhraseSolver ()
+  {
+    solved = false;
+  } 
 
   public void play()
   {

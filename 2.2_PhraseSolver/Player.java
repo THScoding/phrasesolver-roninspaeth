@@ -11,6 +11,9 @@ public class Player
   private String name;
   private int score;
   /* your code here - constructor(s) */ 
+  public Player ()
+  {
+  }
 
   /* your code here - accessor(s) */ 
 
