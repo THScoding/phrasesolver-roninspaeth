@@ -20,6 +20,12 @@ public class Player{
   }
 
   /* your code here - accessor(s) */ 
+  public int getScore() {
+    return score;
+  }
+  public String getName() {
+    return name;
+  }
 
   /* your code here - mutator(s) */ 
 }
