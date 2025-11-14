@@ -28,4 +28,7 @@ public class Player{
   }
 
   /* your code here - mutator(s) */ 
+  public void changeScore(int ammount){
+    score += ammount;
+  }
 }
