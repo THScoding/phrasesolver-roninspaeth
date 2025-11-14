@@ -32,6 +32,13 @@ public class  Board
   }
   
   /* your code here - mutator(s)  */
+  public void changeCurrentLetterValue(int value){
+    currentLetterValue = value;
+  }
+
+  public void changePhrase(String newPhrase) {
+    phrase = newPhrase;
+  }
 
 
   /* ---------- provided code, do not modify ---------- */
